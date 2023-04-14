@@ -11,10 +11,13 @@ The python converts the data into a three digit integer. This integer is then co
 The file `.py` houses the assoicated custom functions for the raspberry pi
 #### Functions
 `formSerialConnection` - For loop that pings the arduino to establish the connection and store the connection in the `uno` global variable.<br />
-`resetArduino` - Triggers a 2 second restart for the arduino.<br />
-`setPin` - Directly communicates information between devices.<br />
-`cleanup` - Runs on termination of code to safely disconnect devices and rest the arduino.<br />
-`main` - Sends a looped set of instructions to the arduino.
+`resetArduino`  - Triggers a 2 second restart for the arduino.<br />
+`setPin`        - Directly communicates information between devices.<br />
+`cleanup`       - Runs on termination of code to safely disconnect devices and rest the arduino.<br />
+`main`          - Sends a looped set of instructions to the arduino.
 
 ### Arduino
 The file `.ino` houses the assoicated custom functions for an arduino uno
+#### Functions
+`readIntFromSerial` -  <br />
+`loop` - 

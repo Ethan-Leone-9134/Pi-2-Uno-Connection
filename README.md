@@ -4,6 +4,9 @@ Repository includes the framework for a raspberry pi to arduino connection via u
 ## Example code
 The repository includes an example of the connection that allows the raspberry pi to modify the values of digital output pins on the arduino.
 
+### Protocal
+The python converts the data into a three digit integer. This integer is then converted and sent over to the arduino, which converts the integer into usable information (Pin and Value).
+
 ### Python
 The file `.py` houses the assoicated custom functions for the raspberry pi
 #### Functions

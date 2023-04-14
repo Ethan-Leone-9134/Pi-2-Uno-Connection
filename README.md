@@ -1,11 +1,8 @@
 # Pi-2-Uno-Connection
-Repository includes the framework for a raspberry pi to arduino connection via usb.
+Repository includes the framework for a raspberry pi to arduino connection via usb. The python converts the data into a three digit integer. This integer is then converted and sent over to the arduino, which converts the integer into usable information (Pin and Value).
 
-## Example code
+### Example code
 The repository includes an example of the connection that allows the raspberry pi to modify the values of digital output pins on the arduino. There is support for reading print statements from the arduino.
-
-### Protocal
-The python converts the data into a three digit integer. This integer is then converted and sent over to the arduino, which converts the integer into usable information (Pin and Value).
 
 ### Python
 The file `serialBridge.py` houses the assoicated custom functions for the raspberry pi

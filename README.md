@@ -7,9 +7,9 @@ The repository includes an example of the connection that allows the raspberry p
 ### Python
 The file ".py" houses the assoicated custom functions for the raspberry pi
 #### Functions
-`formSerialConnection` - For loop that pings the arduino to establish the connection and store the connection in the `uno` global variable.\n
-`resetArduino` - Triggers a 2 second restart for the arduino.\n
-`setPin` - Directly communicates information between devices.\n
+`formSerialConnection` - For loop that pings the arduino to establish the connection and store the connection in the `uno` global variable.<br />
+`resetArduino` - Triggers a 2 second restart for the arduino.<br />
+`setPin` - Directly communicates information between devices.<br />
 `cleanup` - Runs on termination of code to safely disconnect devices and rest the arduino
 `main` - Sends a looped set of instructions to the arduino
 
